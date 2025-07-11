@@ -29,7 +29,7 @@ int main()
     do
     {
         printf("Advanced Phonebook\n");
-        printf("Made by Gabriel C. Infante, 12411507, CCPROG2-S17\n");
+        printf("Dev-Gabb-711\n");
         displayMenu();
         printf("Enter your choice: ");
         scanf("%d", &choice);
