@@ -28,7 +28,6 @@ Define two constants:
 `MAX_LENGTH = 100` — max characters per string field
 
 ### 📦 Contact Structure
-
 `typedef struct {`
 
     `char name[MAX_LENGTH];`
