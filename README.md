@@ -93,5 +93,6 @@ Rules:
 ### ☎ Philippine Phone Number Formats
 
 | **Type**  | **Example** | **Format Description** |
+| --- | --- | --- 
 | Mobile Number  | 09171234567  | Starts with 09 + 9 digits
 | Landline Number  | 0212345678  | Area code (02 or 049) + 8-digit number
