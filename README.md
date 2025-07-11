@@ -28,13 +28,15 @@ Define two constants:
 `MAX_LENGTH = 100` — max characters per string field
 
 ### 📦 Contact Structure
-`typedef struct {
+```c
+typedef struct {
     char name[MAX_LENGTH];
     char nickname[MAX_LENGTH]
     char address[MAX_LENGTH];
     char phone[MAX_LENGTH]
     char email[MAX_LENGTH];
-} Contact;`
+} Contact;
+```
 
 ## 🧠 Functions to Implement 
 Declare these function prototypes:
@@ -90,8 +92,6 @@ Rules:
 
 ### ☎ Philippine Phone Number Formats
 
-**Type	     Example	     Format Description**
-
-Mobile     Number	       09171234567	Starts with 09 + 9 digits
-
-Landline   Number	       0212345678	Area code (02 or 049) + 8-digit number
+| **Type**  | **Example** | **Format Description** |
+| Mobile Number  | 09171234567  | Starts with 09 + 9 digits
+| Landline Number  | 0212345678  | Area code (02 or 049) + 8-digit number
