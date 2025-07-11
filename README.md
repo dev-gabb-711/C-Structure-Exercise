@@ -22,11 +22,13 @@
 ## 🧱 Structure Definition
 ### 🔢 Set Maximum Limits
 Define two constants:
+
 `MAX_CONTACTS = 100` — max number of contacts
 
 `MAX_LENGTH = 100` — max characters per string field
 
 ### 📦 Contact Structure
+
 `typedef struct {`
 
     `char name[MAX_LENGTH];`
@@ -43,6 +45,7 @@ Define two constants:
 
 ## 🧠 Functions to Implement 
 Declare these function prototypes:
+
 `void addContact(Contact contacts[], int *size);`
 
 `int isUnique(Contact contacts[], int size, char *email, char *phone); // returns 1 if found, 0 otherwise`
@@ -93,6 +96,9 @@ Rules:
 `@yahoo.com → missing username`
 
 ### ☎ Philippine Phone Number Formats
+
 **Type	     Example	     Format Description**
+
 Mobile     Number	       09171234567	Starts with 09 + 9 digits
+
 Landline   Number	       0212345678	Area code (02 or 049) + 8-digit number
